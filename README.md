@@ -28,36 +28,37 @@ npm run dev
 ## Screenshots
 **Home Page**
 
-![Home]![alt text](home.png)
+![alt text](home.png)
 
 **Search Bar**
-![SearchBar]![alt text](<search bar.png>)
+![alt text](<search bar.png>)
 
 **FeatureList**
-![FeatureList]![alt text](<feature tourlist.png>)
+![alt text](<feature tourlist.png>)
 
 **Login Page**
 
-![Login]![alt text](<login page.png>)
+![alt text](<login page.png>)
+
 **Successful Login**
-![SuccessfulLogin]![alt text](<succcessful login.png>)
+![alt text](<succcessful login.png>)
 
 **Register page**
 
-![Register]![alt text](<register page.png>)
+![alt text](<register page.png>)
 
 **Forgot Password**
-![ForgotPassword]![alt text](forgotpassword.png)
+![alt text](forgotpassword.png)
 
 **Reset Password**
-![ResetPassword]![alt text](<reset password.png>)
+![alt text](<reset password.png>)
 
 **Tour details page**
 
-![TourDetails]![alt text](tour1.png)![alt text](tour2.png)
+![alt text](tour1.png)![alt text](tour2.png)
 **Tour Booking**
-![TourBooking]![alt text](<travel booking.png>)
+![alt text](<travel booking.png>)
 
 **Thank you page**
 
-![Thankyou]![alt text](thankyou.png)
+![alt text](thankyou.png)
