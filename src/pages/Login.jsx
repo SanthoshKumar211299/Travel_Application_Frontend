@@ -70,6 +70,7 @@ const {dispatch} = useContext(AuthContext)
                 </Button>
                </Form>
                <p>Dont Have an Account?<Link to='/register'>Create New</Link> </p>
+               <p><Link to='/forgotPassword'>Forgot Password?</Link></p>
               </div>
             </div>
           </Col>

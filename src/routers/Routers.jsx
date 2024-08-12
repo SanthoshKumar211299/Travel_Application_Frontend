@@ -8,6 +8,10 @@ import SearchResultList from '../pages/SearchResultList'
 import Register from '../pages/Register'
 import Login from '../pages/Login'
 import ThankYou from '../pages/ThankYou'
+import ForgotPassword from '../pages/ForgotPassword'
+import ResetPassword from '../pages/ResetPassword'
+
+
 
 
 
@@ -23,6 +27,8 @@ const Routers = () => {
         <Route path='/tours/:id' element={<ToursDetails/>} />
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>} />
+        <Route path='/forgotPassword' element={<ForgotPassword />} />
+        <Route path='/resetPassword/:token' element={<ResetPassword/>} />
         <Route path='/thank-you' element={< ThankYou/>} />
         <Route path='/tours/search' element={<SearchResultList/>} />
 
