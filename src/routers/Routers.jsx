@@ -12,11 +12,6 @@ import ForgotPassword from '../pages/ForgotPassword'
 import ResetPassword from '../pages/ResetPassword'
 import About from '../pages/About'
 
-
-
-
-
-
 const Routers = () => {
   return (
     <div>

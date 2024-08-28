@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container } from 'reactstrap'
+import { Col, Container ,Row} from 'reactstrap'
 
 const About = () => {
   return <section>
