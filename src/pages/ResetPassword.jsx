@@ -30,7 +30,7 @@ const ResetPassword = () => {
     dispatch({ type: 'RESET_PASSWORD_START' });
 
     try {
-      const res = await fetch(`${BASE_URL}auth/resetPassword/${token}`, {
+      const res = await fetch(`${BASE_URL}/auth/resetPassword/${token}`, {
         method: 'put',
         headers: { 'Content-Type': 'application/json' },
         credentials:'include',
