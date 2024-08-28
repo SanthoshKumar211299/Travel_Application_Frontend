@@ -7,7 +7,7 @@ const About = () => {
         <Row>
             <Col>
             <h1>About SandyTravels</h1>
-            <p>Brief overview of the travel app and what it offers</p>
+            <p><span>SandyTravels</span>is your go-to travel companion designed to simplify your journey from start to finish. With [unique feature or value proposition], we make it easy for you to [primary benefit, e.g., find the best travel deals, discover hidden gems, or plan your perfect trip]. Our mission is to enhance your travel experience with [additional feature or benefit, e.g., personalized recommendations, seamless booking, or real-time updates], ensuring every trip is memorable and hassle-free.</p>
             </Col>
         </Row>
     </Container>
