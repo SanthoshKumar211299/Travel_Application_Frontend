@@ -10,6 +10,7 @@ import Login from '../pages/Login'
 import ThankYou from '../pages/ThankYou'
 import ForgotPassword from '../pages/ForgotPassword'
 import ResetPassword from '../pages/ResetPassword'
+import About from '../pages/About'
 
 
 
@@ -23,6 +24,7 @@ const Routers = () => {
       <Routes>
         <Route path='/' element={<Navigate to='/home'/>}/>
         <Route path='/home' element={<Home/>} />
+        <Route path='/about' element={<About/>}/>
         <Route path='/tours' element={<Tours/>} />
         <Route path='/tours/:id' element={<ToursDetails/>} />
         <Route path='/login' element={<Login/>}/>
