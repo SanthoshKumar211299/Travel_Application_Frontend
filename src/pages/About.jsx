@@ -1,13 +1,14 @@
 import React from 'react'
 import { Col, Container ,Row} from 'reactstrap'
 import worldImg from '../assets/images/world.png'
+import experienceImg from '../assets/images/experience.png'
 import Subtitle from '../shared/Subtitle'
 import { Link } from 'react-router-dom'
 const About = () => {
   return <section>
     <Container>
         <Row>
-            <Col lg='8'>
+            <Col lg='6'>
             <div className='hero__content'>
                     <div className="hero__subtitle d-flex align-items-center">
                     <Subtitle subtitle={'Know Get About Our Travel Plans'}/>
@@ -21,6 +22,11 @@ const About = () => {
                     <h6>* Search your Tour From Here <Link to='/' >Click Here</Link></h6>
                 </div>
             </Col>
+            <Col lg ='6'>
+                    <div className="experience__img">
+                        <img src={experienceImg} alt=''/>
+                    </div>
+                    </Col>
         </Row>
     </Container>
   </section>
