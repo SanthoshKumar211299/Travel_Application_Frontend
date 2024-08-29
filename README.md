@@ -23,7 +23,7 @@ npm install
 ```
 npm run dev
 ```
-4. Open http://localhost:5173 to view it in the browser.
+4. Open https://sandytravelsfrontend.netlify.app to view it in the browser.
 
 ## Screenshots
 **Home Page**
@@ -35,6 +35,9 @@ npm run dev
 
 **FeatureList**
 ![alt text](<feature tourlist.png>)
+
+**About**
+
 
 **Login Page**
 
