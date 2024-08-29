@@ -37,7 +37,7 @@ npm run dev
 ![alt text](<feature tourlist.png>)
 
 **About**
-
+![alt text](<About Page.png>)
 
 **Login Page**
 
@@ -59,9 +59,10 @@ npm run dev
 **Tour details page**
 
 ![alt text](tour1.png)![alt text](tour2.png)
+
 **Tour Booking**
 ![alt text](<travel booking.png>)
 
 **Thank you page**
 
-![alt text](thankyou.png)
+![alt text](<Thank You Page.png>)
