@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import CommonSection from '../shared/CommonSection'
 import '../styles/tours.css'
 import TourCard from '../shared/TourCard'
-import Newsletter from '../shared/Newsletter'
 import { Col, Container, Row } from 'reactstrap'
 import SearchBar from '../shared/SearchBar'
 import useFetch from '../hooks/useFetch'
@@ -58,7 +57,7 @@ const Tours = () => {
           )}
         </Container>
       </section>
-      <Newsletter />
+     
     </>
   )
 }

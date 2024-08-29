@@ -5,7 +5,6 @@ import { useParams } from 'react-router-dom'
 import calculateAvgRating from '../utils/avgRating'
 import avatar from  '../assets/images/avatar.jpg'
 import Booking from '../components/Booking/Booking'
-import Newsletter from '../shared/Newsletter'
 import useFetch from '../hooks/useFetch'
 import { BASE_URL } from '../utils/config'
 import { AuthContext } from '../context/AuthContext'
@@ -171,7 +170,7 @@ const ToursDetails = () => {
 }
     </Container>
   </section>
-  <Newsletter/>
+  
   </>
   ) 
 }

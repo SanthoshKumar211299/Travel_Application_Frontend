@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Col, Container, Row } from 'reactstrap'
 import "../styles/thankyou.css"
 import { Link } from 'react-router-dom'
-import Newsletter from '../shared/Newsletter'
+
 const ThankYou = () => {
     return  <>
     <section>
@@ -24,7 +24,7 @@ const ThankYou = () => {
 
         </Container>
     </section>
-    <Newsletter/>
+   
     </>
 }
 export default ThankYou
